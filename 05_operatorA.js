@@ -1,0 +1,4 @@
+function squareOfWordLength(){
+    console.log();
+    
+}
