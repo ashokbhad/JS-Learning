@@ -70,7 +70,7 @@ console.log("%c=== string to Number ===", "color: green");
 result = Number("324");
 console.log(result); // 324
 
-result = Number("324-1");
+result = Number("324e-1");
 console.log(result); // 32.4
 
 console.log("%c=== Boolean to Number ===", "color: green");
