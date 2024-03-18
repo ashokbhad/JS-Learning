@@ -1,12 +1,12 @@
 var isEligibleToVote = function (age) {
   if (age <= 0 || age > 130 || isNaN(age) || age === null) {
-    console.log("Eligible for voting     :");
+    console.log("Eligible for voting");
     return false;
   } else if (age < 18) {
-    console.log("Not eligible for voting :");
+    console.log("Not eligible for voting");
     return false;
   } else {
-    console.log("Eligible for voting    :");
+    console.log("Eligible for voting");
     return true;
   }
 };
