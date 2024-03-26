@@ -8,7 +8,7 @@ for (let i = 0; i < arrayNumber.length; i++) {
 console.log("Total elements in arrayNumber is:", arrayNumber.length);
 
 console.log("%c2. Log the first & last element", "color: pink");
-process.stdout.write("-> ");
+// process.stdout.write("-> ");
 console.log(`First element - ${arrayNumber[0]}`);
 console.log(`Last element  - ${arrayNumber[arrayNumber.length - 1]}`);
 
