@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Local Storage</title>
+</head>
+
+<body>
+    <h2>Local Storage Assignment</h2>
+    <script>
+        window.localStorage.setItem("FullName", "Ashok Damodhar Bhad");
+        window.localStorage.setItem("City", "Bid");
+        window.localStorage.setItem("PinCode", 411057);
+        window.localStorage.setItem("District", "Pune");
+
+        const result = window.localStorage.removeItem("City");
+        console.log(result);
+    </script>
+
+</body>
+
+</html>
